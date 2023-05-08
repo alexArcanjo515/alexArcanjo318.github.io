@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css"/>
+    <title>Slider</title>
+</head>
+<body>
+    <section>
+    <video id="slider" autoplay muted loop>
+     <source src="Video/Kansas City Skyline Sunrise Time Lapse Composite.mp4" type="video/mp4"/>
+    </video>
+    <ul class="navigation">
+        <li onclick="videoUrl('Video/Kansas City Skyline Sunrise Time Lapse Composite.mp4')"><img src="imagem/i (1).png"></li>
+        <li onclick="videoUrl('Video/Pessoas andando na rua - Vídeos de fundo - 08s.mp4')"><img src="imagem/i (2).png"></li>
+        <li onclick="videoUrl('Video/VIDEO_ PESSOAS ANDANDO NA RUA HD.mp4')"><img src="imagem/i (3).png"></li>
+        <li onclick="videoUrl('Video/Virtual City Background Video HD.mp4')"><img src="imagem/i(5).png"></li>
+    </ul>
+</section>
+<script type="text/javascript">
+    function videoUrl(hmmmmmm){
+        document.getElementById("slider").src = hmmmmmm;
+    }
+</script>
+</body>
+</html>
